@@ -126,6 +126,7 @@ export default {
   methods: {
     handleClick (tab, event) {
       this.filterTreeData = []
+			this.keyword = ''
     },
 
     handleNodeClick (data) {
